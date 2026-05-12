@@ -1,14 +1,105 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  
-<style>
-  
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    
+    <style>
+    
+    {
+  margin: 0;
+  padding: 0;
+}
+h1, p {
+  margin: 10px;
+  text-align: center;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+h3, p {
+  margin: 10px;
+  font-size: 20px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+   .container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+}
+
+.container div {
+  background-color: #f1f1f1;
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;  
+  font-size: 30px;
+}
+
+.image {
+  width: 400px;
+}
+    </style>
   </head>
+  
   <body>
-    <p class="text-base-[30px]">  
-      ik hou van kaas  </p>
+
+
+<ul>
+ <li><a href="https://pinkalpaca.neocities.org/home">Home</a></li> 
+   <li><a href="#news">fine art</a></li>  
+  <li><a href="#contact">other projects</a></li> 
+  <li><a href="#about">comic</a></li>  
+  <li><a href="#about">doodles</a></li>  
+</ul>
+  
+<h1>Portfolio</h1>
+
+
+<div class="container">
+<h3>  <div> <img src="Images/gallerybg.jpg" alt="thing" class="image"></div> </h3>
+<h3>    <div> <a href="Images/gallerybg.jpg"><img src="Images/gallerybg.jpg" alt="HTML tutorial" class="image"></a></div> </h3>
+ <h3>    <div> <img src="Images/gallerybg.jpg" alt="thing" class="image"></div></h3>
+ <h3>   <div> <img src="Images/gallerybg.jpg" alt="thing" class="image"></div></h3>
+ <h3>    <div> <img src="Images/gallerybg.jpg" alt="thing" class="image"></div></h3>
+  <h3>    <div> <img src="Images/gallerybg.jpg" alt="thing" class="image"></div></h3>
+    <h3>   <div> <img src="Images/gallerybg.jpg" alt="thing" class="image"></div></h3>
+</div>
+
+  
   </body>
- 
 </html>
